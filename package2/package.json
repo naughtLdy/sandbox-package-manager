@@ -1,0 +1,12 @@
+{
+  "name": "package2",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "author": "naughtLdy",
+  "license": "MIT",
+  "dependencies": {
+    "package1": "file:../package1"
+  }
+}
