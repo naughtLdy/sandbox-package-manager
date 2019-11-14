@@ -1,12 +1,12 @@
 {
-  "name": "package2",
+  "name": "package3",
   "version": "1.0.0",
   "scripts": {
     "test": "eslint index.js"
   },
   "author": "naughtLdy",
   "license": "MIT",
-  "devDependencies": {
-    "package1": "file:../package1"
+  "dependencies": {
+    "package1": "file:../package1/package1-1.0.0.tgz"
   }
 }
